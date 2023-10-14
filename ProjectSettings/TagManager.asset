@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Chunk-Right
+  - Chunk-Left
+  - Chunk-Up
+  - Chunk-Down
+  - Chunk-UpRight
+  - Chunk-UpLeft
+  - Chunk-DownRight
+  - Chunk-DownLeft
   layers:
   - Default
   - TransparentFX

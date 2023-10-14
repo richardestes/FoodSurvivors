@@ -1,0 +1,3946 @@
+fileFormatVersion: 2
+guid: 50812efd941efc04793b4be56e0533a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 389
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26908175f5c446641b38bd144ee4dfca
+      internalID: -1595029772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 388
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ac4fedbf359aa43bae53c3b5d3a464
+      internalID: 189465832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 389
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263bf52dd6ce67a47ac526ecaccf9032
+      internalID: -139498026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 390
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ea59f2831ddb144b5e1f8e3add6769
+      internalID: -373063292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 390
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7be031f57ee02468a714ea272f3263
+      internalID: -1161400752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2183ccc47ea514697e377754752efb
+      internalID: -1167253766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2736dc9d325745a6ac3b7a916fca3
+      internalID: -2132361307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71840f06e1850c845af564416d737eb9
+      internalID: 1543837906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 384
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6916fa8dba0add478243731c9f6d8da
+      internalID: 1967532433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 384
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611372a8ed6d2da41b7bd2dba1f6c7a6
+      internalID: -800330969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 384
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f34594e84a04974589b290b1d48e42f
+      internalID: -1678774720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4807cd58b73979f4e8741570960387be
+      internalID: 1725862336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 355
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ffc4f2d2b2304f90f1d2763c26423
+      internalID: 1701614514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 355
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b563dc8139d3ae4fbd4a15f769bca15
+      internalID: -1302754389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 355
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1130357360e61c49ba3c22d05073dfa
+      internalID: 1982043940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 354
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55f30cf8181f94418e38b6d80b1609f
+      internalID: -692288588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 354
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44e03f6ccb550f4c886b14e2c107473
+      internalID: 1457276464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1416c408c8b8aaf4f9cda8e829d3facb
+      internalID: 1016700088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 356
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326246ff834737b42a311fedafdb9721
+      internalID: 782476647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 357
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03088f9f802d32e43aee80c42a1d827d
+      internalID: 696409181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 358
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9b839637a6b884c9970d377be3e87a
+      internalID: -175228401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 358
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb181912e81a8364f98590ff5e52e396
+      internalID: 83821476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 361
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd44efe256e79db4cb3c34d6d491be46
+      internalID: 1903970333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 326
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09170c2679a277741a02eb302564001b
+      internalID: 237192608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 321
+        width: 96
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482eeda3da89e74e9cc7d114892cf6b
+      internalID: -33989249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 320
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde97a4345368214dbb8bce256d89a9e
+      internalID: 967987147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 324
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8d6eafccda4544094f4c9ac93ffb3c
+      internalID: 1339840520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 324
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fa9fc27ac053641af44e348fa1d92f
+      internalID: -1097123514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_28
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 328
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c65b826bc2dda4ba69b05d52332e36
+      internalID: -456930477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_29
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 325
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b063698e8afc3db40bed829f5619bc4a
+      internalID: 1132933418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 326
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d220836a7a737474ca5cae034c132430
+      internalID: 911381814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 326
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928835dba2703b545a533e32bec9c1e8
+      internalID: -1821254283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_32
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 320
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888bd2003d2794e4cb5f3e79a4b38030
+      internalID: 291317549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 325
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3da88150246b6b46addd3ea16ded00d
+      internalID: 1367718067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 326
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c5c7051940ad4284633a4462c93bc
+      internalID: 384488203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 299
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e956f5fa9330824f8e3b55d54a86613
+      internalID: -289028263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 290
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c28c27af9bbc9f47bff10d1a383e552
+      internalID: -2010652606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 297
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ae7d5479e01c842985fc63a4906af5
+      internalID: -2047498394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 296
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa10799ad4b8f54a82b19d260d40c33
+      internalID: -43750975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 288
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d910283d938dd2f43a6bfb47e4e6b8f0
+      internalID: -1802041527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 293
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ff1afb4d76b3429c18148370a0d91
+      internalID: -900247823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 290
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032378fd9fbe83b4985d5e8af6a51c8d
+      internalID: 1907026595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_42
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 293
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5601a9790ca8c7540b204de20e5be507
+      internalID: 1052725593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 291
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfb80553a3f2e64c99454c8f7cbecd6
+      internalID: -1060534737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_44
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 291
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4be75675f7de2647b6377b70fc2f9e0
+      internalID: -756036804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_45
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 290
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0af1f5e8db681449bf9080b71acfe9
+      internalID: 610100802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 289
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2721b3e8daf5564c999ea96516cfafa
+      internalID: 399057854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad7f14bc88e93745b80faaa32b344bf
+      internalID: -65670186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_48
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 290
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb56deaad489d14b90f58cb829d9394
+      internalID: -1699817780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_49
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 289
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0788ba9563bf41f47b39f3769ad4cb0a
+      internalID: -1623165940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253903b4ffb1a3345aa991ca32084d57
+      internalID: 48934727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df3e9ad8dd7a2c45b4fa8fca38fd873
+      internalID: -4320354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4592cbab7aec94ea15c238a8f44fc1
+      internalID: 1417673133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_53
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 262
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f466afd239fbb4ba4d9782cd779a0b
+      internalID: 1211448069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 258
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e84c20f38d8c4469061e6b9268b3b2
+      internalID: 2051467945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 260
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d053eac5ec88818418c6f251e4985baf
+      internalID: -1140658628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b575ab85c51a6f2468c4a2edfb67722f
+      internalID: 1912258770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 257
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d68287f9f5027c46ba3d34e94fc0c69
+      internalID: -2133812540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_58
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 266
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288ae06647b11524eb52c60027747fdb
+      internalID: -2099091974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 259
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b1e64e8b93a554c93ac33bb28e334f
+      internalID: 1977451143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_60
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 257
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9127ebf566d2e048928f245a32c8c4c
+      internalID: 119506008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_61
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4415d9336152d614f811d038331f1888
+      internalID: -1434236606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_62
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 259
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf0ecf34c83fcc479a13fde42f7372f
+      internalID: 281674118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_63
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 256
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2343303184363524183b9280e1e1c0dc
+      internalID: 1739845633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_64
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 261
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f46e141a5791b244bc7145c80e9405a
+      internalID: -1894435855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e50e5a92f322e42a34011849cef538
+      internalID: -1096245575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_66
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf4b0da98083ca4283bca7e2cefe28b
+      internalID: 112661826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_67
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 226
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c61abb3d3771b745b731cdb74cf786b
+      internalID: 1544542424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 226
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a06402df246e42bf46a03105b6c3a
+      internalID: 1005005544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 225
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b197f1797409d4abc28ce2464cb68f
+      internalID: 1971537930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_70
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 226
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b086631d93d8454da9c0d39f1cd1ec2
+      internalID: -558739204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_71
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 230
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d058c7a16be4554e9e87753138fe6bd
+      internalID: -954176931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_72
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 224
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa72ad059a888846b0d190e0cc0c792
+      internalID: -2096925206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 233
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3dce9ea64b72f4db12aba1f740d6a4
+      internalID: -316607682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 227
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0eb98ac57599b43866dccd10fdfa43
+      internalID: -272347825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_75
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 225
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95373921610f1cb4bac72f166df7d13f
+      internalID: -179839750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_76
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 229
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077889e52d6d833448a980d123653b6e
+      internalID: 1097042004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_77
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 224
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fd6453e6a7cc647b75485aec3dce9d
+      internalID: 2012167608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_78
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 225
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53560c4f2de53394c887942ec353bb90
+      internalID: 1465041331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_79
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 224
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ad9c619821dcb44b25c329d9af7c49
+      internalID: -926412404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_80
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 227
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac41fbe527876a8449d5f3b19cd5f72b
+      internalID: -455794083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dbb913cc57ffa4581d72e94a6bcb2a
+      internalID: 1689029160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_82
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 194
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c19369027ad354fb82ae53ac7e67ed
+      internalID: 878883414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_83
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 197
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eb315371a206a47b6e82d9dea2841e
+      internalID: 1527669330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_84
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 194
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55594560b52fa04e800b914740933af
+      internalID: 1788429795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9daf58662e56d4baa651550d365b88
+      internalID: 23759884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_86
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a6ec718abf90e48becc0d70e3c6ff4
+      internalID: -176233542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_87
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 195
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5babf69efb07f48a39e47272ba5ca2
+      internalID: -1200470397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 197
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32509542d276154d895e130b8a174e5
+      internalID: -902429359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_89
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 192
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646f6d25023dc1f42908e3a0280e7162
+      internalID: 1982747638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_90
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 195
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41050fca808c4d445acb57b34eb8491b
+      internalID: -686711167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_91
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 198
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96048dcd5176a9d45b5475e21f46bf06
+      internalID: 140770432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_92
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 196
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4c291fe6d10a74f80a5ac0863edcf8
+      internalID: -965481889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 200
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689f051982101b64dabebc4244c9d5dc
+      internalID: -1103874333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_94
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded841bf60ec6264c8c45d2c64533c61
+      internalID: -1551781691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_95
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7d264354d8e134bb20403914bbb81d
+      internalID: -68771214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_96
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cc040f7142379448b47f57c3be783a
+      internalID: -794970644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_97
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 165
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7a40f7ca84f10408cc9b601d2eed99
+      internalID: -2067622839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d4cdcb657895489a4ad7bbc6650c2
+      internalID: -111397321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aadc131ffd29c24c843574dae873f06
+      internalID: 1252166585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_100
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 160
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357940373b284694b89573b82d8394f1
+      internalID: 1811233505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_101
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 168
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4439498c8986374086a21499f9cc2d7
+      internalID: 836855490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_102
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 165
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca720fdcb17bac5418a2c20a85996af0
+      internalID: -217730454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_103
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 164
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5010622a2a0fe244382540de5d989908
+      internalID: -316739359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_104
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 166
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4609f56fe42c33048a6cfe0f60f57d9d
+      internalID: 214456564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_105
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 166
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0167f712d214104ba69e3bfb8d63616
+      internalID: 517935989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_106
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 168
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593b0631a68d53648bdba997146d5032
+      internalID: 1118974362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_107
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 160
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5239614f5ed9c4b90d06d9e57b48a1
+      internalID: 1055427414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_108
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06195534e113d1140a335ae19266dfc8
+      internalID: -259819353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905324238c62aee4b9ce395f9cb4728d
+      internalID: -1250263341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_110
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 131
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f9d2f5122e1934b814420adf4d4e61
+      internalID: 1096048689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_111
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 133
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc6842fb4dd65a41bd69df3076def61
+      internalID: 1564064220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_112
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 130
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4920ab4f1b9eae8498dcc5af31840651
+      internalID: -417628597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_113
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 132
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a66ea7dff8f6d840ac2b97e3aa84789
+      internalID: 392283124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 130
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aab3a0c737cc934aa40a7425d2028fa
+      internalID: 563974861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_115
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 129
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6347ac60025904943ab4fc356ddf5138
+      internalID: -711397833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_116
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 130
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8ced86b5681a4096cda7939648aac
+      internalID: -1902199279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_117
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 130
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f2e5b182c4fd641a857da9a454fc05
+      internalID: 1477275231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_118
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ece0a16765c14c8969fdb23ebee9b
+      internalID: -1574512096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_119
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 133
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8726de80b37f8af4a9036991a91fd9a5
+      internalID: 2014047779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_120
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e401adf1586f7b64489eb026321ab95d
+      internalID: 1271948564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_121
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 132
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a0b4b49866e5c49bc9164b139f07d7
+      internalID: 978591663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_122
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 134
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4040eb215f0f1419720c3da20b35ec
+      internalID: 1345340937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_123
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 134
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fb088d6682fc3499acaf823d95af18
+      internalID: 1219046894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365bbefb9d5274944900f8d91d130293
+      internalID: 2023199483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e76bce84f2f5d64987f9c9494181555
+      internalID: -1030763680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4eb2d2b2eda7d499e6968aee270b79
+      internalID: -347057053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_127
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 101
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6db07d68849e2409a866e3ad6209ed
+      internalID: 432135674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_128
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 99
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553f7ae7b5f138645b1985142e6ff049
+      internalID: 1842110249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_129
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7973a1d4cca61734cbac5fe22358e4bb
+      internalID: 81898857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_130
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 97
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acac59963505fdc44ad57b38cb463d4e
+      internalID: 972513945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_131
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 100
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ac315b28d35f4a8d9c3e9b2c8ebf3
+      internalID: -1061655007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_132
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 102
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa07c8906cbee424899bb71b247e707e
+      internalID: 929388638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_133
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 96
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f08805c3a9884189d9e1874268173
+      internalID: -1080434547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_134
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 99
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952d3167e3ca0a4448e5dab73fb7e4d6
+      internalID: -613509684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_135
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 98
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f982ec17d73fa41986ec925c877e91
+      internalID: 1624959460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_136
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 103
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75534ccf1dec75641a75bfe9dbf698d7
+      internalID: -1518011894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_137
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 104
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013875b28495df74ba5aee201ba0f159
+      internalID: 222077894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_138
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef580810b78a7e24a9a97016c3875f39
+      internalID: 79795003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_139
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 67
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148c799b1ef22447a52bb5dbdb29ee7
+      internalID: 1020603696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_140
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17712fb818ec6cb4094cb99a532cfb6f
+      internalID: -516591527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_141
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 66
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e274417d720f6b4d9a470b79279adbc
+      internalID: 299523540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_142
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 66
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a78385188c5ba448be97d6b3c84887
+      internalID: -2055577725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_143
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 71
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd1fa1fefb17b84e8caba6600c255d1
+      internalID: -1656259307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_144
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 66
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca15ddd408f53448978a883a4a99c2e
+      internalID: -846684404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_145
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 64
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a06df73ae236449b4c79ec917ae717
+      internalID: 1318696631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_146
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 64
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc1dedc2a290ed4eaf447070d19aaae
+      internalID: -1942723158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028151d0d1d6da04dbaa15aaf789c6ff
+      internalID: -1104655061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_148
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 34
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4de02239e7a3140930533355c994a8
+      internalID: 1980124722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee82d001624c4e41a112681f0feed00
+      internalID: 1090336307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_150
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40901041892a60b4dbdbdbf1ef94cb6f
+      internalID: -1276493197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 36
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b281456acc2b8b42a7d8dd17eb7fcb2
+      internalID: 1623709687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_152
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1813e0409ba93847a90708f5e60ea17
+      internalID: -307237327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_153
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 37
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e17a72194aa554e86b6fcc7c470fd8
+      internalID: -1128148755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_154
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 37
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f808ea0d77c2940a54762dfb80e0e7
+      internalID: -309529787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_155
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 35
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d0fb4b99ec4348a3dc708bbdbeae9
+      internalID: -2031777615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_156
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 41
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412d362e7729727459a7faaf319eac9d
+      internalID: -552881463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_157
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 37
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fc5b4314483334f8ea29e2d5c7dfab
+      internalID: -495190322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_158
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 38
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7e516d02dde824e8fa16284decb07f
+      internalID: 2039691511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_159
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 36
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15636119a8a169c45838848d27335243
+      internalID: 1261391140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_160
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 33
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b199dfff618d78488ff97923845fd51
+      internalID: -2022845928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_161
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 37
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e37f14587088e41b44233680bb4cec
+      internalID: -524325740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_162
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 33
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c175eb4f2866e4fa433e7419b5eda6
+      internalID: -223004229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_163
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9c27195fd84e49a86aa6de744ada3
+      internalID: 2115736040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_164
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34e248e671d6a040a026bec8475d7bf
+      internalID: 792739512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_165
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852e2840ea9fdd847a12e7aa159ff72b
+      internalID: 1134695412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_166
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f021e76a3e819243aa101990a1208ec
+      internalID: 68797655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_167
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be545a1c9d24394491b11a2370490bb
+      internalID: -50603890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_168
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 6
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067fda018a7ecd4a8becc924424edbf
+      internalID: 315276382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_169
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1e66ef5cf785f4b883d84d296c2f24
+      internalID: 424321914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_170
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e2a965d9f5f249afc043d6d0deb69
+      internalID: -1898874624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_171
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5de73eb61ff843a4a0d41347811d1
+      internalID: 2123093526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SODA's Realistic 32x32 Food Icon Pack_172
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3caaee535066a41b454225e584378d
+      internalID: -689971316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SODA's Realistic 32x32 Food Icon Pack_0: -1595029772
+      SODA's Realistic 32x32 Food Icon Pack_1: 189465832
+      SODA's Realistic 32x32 Food Icon Pack_10: -1678774720
+      SODA's Realistic 32x32 Food Icon Pack_100: 1811233505
+      SODA's Realistic 32x32 Food Icon Pack_101: 836855490
+      SODA's Realistic 32x32 Food Icon Pack_102: -217730454
+      SODA's Realistic 32x32 Food Icon Pack_103: -316739359
+      SODA's Realistic 32x32 Food Icon Pack_104: 214456564
+      SODA's Realistic 32x32 Food Icon Pack_105: 517935989
+      SODA's Realistic 32x32 Food Icon Pack_106: 1118974362
+      SODA's Realistic 32x32 Food Icon Pack_107: 1055427414
+      SODA's Realistic 32x32 Food Icon Pack_108: -259819353
+      SODA's Realistic 32x32 Food Icon Pack_109: -1250263341
+      SODA's Realistic 32x32 Food Icon Pack_11: 1725862336
+      SODA's Realistic 32x32 Food Icon Pack_110: 1096048689
+      SODA's Realistic 32x32 Food Icon Pack_111: 1564064220
+      SODA's Realistic 32x32 Food Icon Pack_112: -417628597
+      SODA's Realistic 32x32 Food Icon Pack_113: 392283124
+      SODA's Realistic 32x32 Food Icon Pack_114: 563974861
+      SODA's Realistic 32x32 Food Icon Pack_115: -711397833
+      SODA's Realistic 32x32 Food Icon Pack_116: -1902199279
+      SODA's Realistic 32x32 Food Icon Pack_117: 1477275231
+      SODA's Realistic 32x32 Food Icon Pack_118: -1574512096
+      SODA's Realistic 32x32 Food Icon Pack_119: 2014047779
+      SODA's Realistic 32x32 Food Icon Pack_12: 1701614514
+      SODA's Realistic 32x32 Food Icon Pack_120: 1271948564
+      SODA's Realistic 32x32 Food Icon Pack_121: 978591663
+      SODA's Realistic 32x32 Food Icon Pack_122: 1345340937
+      SODA's Realistic 32x32 Food Icon Pack_123: 1219046894
+      SODA's Realistic 32x32 Food Icon Pack_124: 2023199483
+      SODA's Realistic 32x32 Food Icon Pack_125: -1030763680
+      SODA's Realistic 32x32 Food Icon Pack_126: -347057053
+      SODA's Realistic 32x32 Food Icon Pack_127: 432135674
+      SODA's Realistic 32x32 Food Icon Pack_128: 1842110249
+      SODA's Realistic 32x32 Food Icon Pack_129: 81898857
+      SODA's Realistic 32x32 Food Icon Pack_13: -1302754389
+      SODA's Realistic 32x32 Food Icon Pack_130: 972513945
+      SODA's Realistic 32x32 Food Icon Pack_131: -1061655007
+      SODA's Realistic 32x32 Food Icon Pack_132: 929388638
+      SODA's Realistic 32x32 Food Icon Pack_133: -1080434547
+      SODA's Realistic 32x32 Food Icon Pack_134: -613509684
+      SODA's Realistic 32x32 Food Icon Pack_135: 1624959460
+      SODA's Realistic 32x32 Food Icon Pack_136: -1518011894
+      SODA's Realistic 32x32 Food Icon Pack_137: 222077894
+      SODA's Realistic 32x32 Food Icon Pack_138: 79795003
+      SODA's Realistic 32x32 Food Icon Pack_139: 1020603696
+      SODA's Realistic 32x32 Food Icon Pack_14: 1982043940
+      SODA's Realistic 32x32 Food Icon Pack_140: -516591527
+      SODA's Realistic 32x32 Food Icon Pack_141: 299523540
+      SODA's Realistic 32x32 Food Icon Pack_142: -2055577725
+      SODA's Realistic 32x32 Food Icon Pack_143: -1656259307
+      SODA's Realistic 32x32 Food Icon Pack_144: -846684404
+      SODA's Realistic 32x32 Food Icon Pack_145: 1318696631
+      SODA's Realistic 32x32 Food Icon Pack_146: -1942723158
+      SODA's Realistic 32x32 Food Icon Pack_147: -1104655061
+      SODA's Realistic 32x32 Food Icon Pack_148: 1980124722
+      SODA's Realistic 32x32 Food Icon Pack_149: 1090336307
+      SODA's Realistic 32x32 Food Icon Pack_15: -692288588
+      SODA's Realistic 32x32 Food Icon Pack_150: -1276493197
+      SODA's Realistic 32x32 Food Icon Pack_151: 1623709687
+      SODA's Realistic 32x32 Food Icon Pack_152: -307237327
+      SODA's Realistic 32x32 Food Icon Pack_153: -1128148755
+      SODA's Realistic 32x32 Food Icon Pack_154: -309529787
+      SODA's Realistic 32x32 Food Icon Pack_155: -2031777615
+      SODA's Realistic 32x32 Food Icon Pack_156: -552881463
+      SODA's Realistic 32x32 Food Icon Pack_157: -495190322
+      SODA's Realistic 32x32 Food Icon Pack_158: 2039691511
+      SODA's Realistic 32x32 Food Icon Pack_159: 1261391140
+      SODA's Realistic 32x32 Food Icon Pack_16: 1457276464
+      SODA's Realistic 32x32 Food Icon Pack_160: -2022845928
+      SODA's Realistic 32x32 Food Icon Pack_161: -524325740
+      SODA's Realistic 32x32 Food Icon Pack_162: -223004229
+      SODA's Realistic 32x32 Food Icon Pack_163: 2115736040
+      SODA's Realistic 32x32 Food Icon Pack_164: 792739512
+      SODA's Realistic 32x32 Food Icon Pack_165: 1134695412
+      SODA's Realistic 32x32 Food Icon Pack_166: 68797655
+      SODA's Realistic 32x32 Food Icon Pack_167: -50603890
+      SODA's Realistic 32x32 Food Icon Pack_168: 315276382
+      SODA's Realistic 32x32 Food Icon Pack_169: 424321914
+      SODA's Realistic 32x32 Food Icon Pack_17: 1016700088
+      SODA's Realistic 32x32 Food Icon Pack_170: -1898874624
+      SODA's Realistic 32x32 Food Icon Pack_171: 2123093526
+      SODA's Realistic 32x32 Food Icon Pack_172: -689971316
+      SODA's Realistic 32x32 Food Icon Pack_18: 782476647
+      SODA's Realistic 32x32 Food Icon Pack_19: 696409181
+      SODA's Realistic 32x32 Food Icon Pack_2: -139498026
+      SODA's Realistic 32x32 Food Icon Pack_20: -175228401
+      SODA's Realistic 32x32 Food Icon Pack_21: 83821476
+      SODA's Realistic 32x32 Food Icon Pack_22: 1903970333
+      SODA's Realistic 32x32 Food Icon Pack_23: 237192608
+      SODA's Realistic 32x32 Food Icon Pack_24: -33989249
+      SODA's Realistic 32x32 Food Icon Pack_25: 967987147
+      SODA's Realistic 32x32 Food Icon Pack_26: 1339840520
+      SODA's Realistic 32x32 Food Icon Pack_27: -1097123514
+      SODA's Realistic 32x32 Food Icon Pack_28: -456930477
+      SODA's Realistic 32x32 Food Icon Pack_29: 1132933418
+      SODA's Realistic 32x32 Food Icon Pack_3: -373063292
+      SODA's Realistic 32x32 Food Icon Pack_30: 911381814
+      SODA's Realistic 32x32 Food Icon Pack_31: -1821254283
+      SODA's Realistic 32x32 Food Icon Pack_32: 291317549
+      SODA's Realistic 32x32 Food Icon Pack_33: 1367718067
+      SODA's Realistic 32x32 Food Icon Pack_34: 384488203
+      SODA's Realistic 32x32 Food Icon Pack_35: -289028263
+      SODA's Realistic 32x32 Food Icon Pack_36: -2010652606
+      SODA's Realistic 32x32 Food Icon Pack_37: -2047498394
+      SODA's Realistic 32x32 Food Icon Pack_38: -43750975
+      SODA's Realistic 32x32 Food Icon Pack_39: -1802041527
+      SODA's Realistic 32x32 Food Icon Pack_4: -1161400752
+      SODA's Realistic 32x32 Food Icon Pack_40: -900247823
+      SODA's Realistic 32x32 Food Icon Pack_41: 1907026595
+      SODA's Realistic 32x32 Food Icon Pack_42: 1052725593
+      SODA's Realistic 32x32 Food Icon Pack_43: -1060534737
+      SODA's Realistic 32x32 Food Icon Pack_44: -756036804
+      SODA's Realistic 32x32 Food Icon Pack_45: 610100802
+      SODA's Realistic 32x32 Food Icon Pack_46: 399057854
+      SODA's Realistic 32x32 Food Icon Pack_47: -65670186
+      SODA's Realistic 32x32 Food Icon Pack_48: -1699817780
+      SODA's Realistic 32x32 Food Icon Pack_49: -1623165940
+      SODA's Realistic 32x32 Food Icon Pack_5: -1167253766
+      SODA's Realistic 32x32 Food Icon Pack_50: 48934727
+      SODA's Realistic 32x32 Food Icon Pack_51: -4320354
+      SODA's Realistic 32x32 Food Icon Pack_52: 1417673133
+      SODA's Realistic 32x32 Food Icon Pack_53: 1211448069
+      SODA's Realistic 32x32 Food Icon Pack_54: 2051467945
+      SODA's Realistic 32x32 Food Icon Pack_55: -1140658628
+      SODA's Realistic 32x32 Food Icon Pack_56: 1912258770
+      SODA's Realistic 32x32 Food Icon Pack_57: -2133812540
+      SODA's Realistic 32x32 Food Icon Pack_58: -2099091974
+      SODA's Realistic 32x32 Food Icon Pack_59: 1977451143
+      SODA's Realistic 32x32 Food Icon Pack_6: -2132361307
+      SODA's Realistic 32x32 Food Icon Pack_60: 119506008
+      SODA's Realistic 32x32 Food Icon Pack_61: -1434236606
+      SODA's Realistic 32x32 Food Icon Pack_62: 281674118
+      SODA's Realistic 32x32 Food Icon Pack_63: 1739845633
+      SODA's Realistic 32x32 Food Icon Pack_64: -1894435855
+      SODA's Realistic 32x32 Food Icon Pack_65: -1096245575
+      SODA's Realistic 32x32 Food Icon Pack_66: 112661826
+      SODA's Realistic 32x32 Food Icon Pack_67: 1544542424
+      SODA's Realistic 32x32 Food Icon Pack_68: 1005005544
+      SODA's Realistic 32x32 Food Icon Pack_69: 1971537930
+      SODA's Realistic 32x32 Food Icon Pack_7: 1543837906
+      SODA's Realistic 32x32 Food Icon Pack_70: -558739204
+      SODA's Realistic 32x32 Food Icon Pack_71: -954176931
+      SODA's Realistic 32x32 Food Icon Pack_72: -2096925206
+      SODA's Realistic 32x32 Food Icon Pack_73: -316607682
+      SODA's Realistic 32x32 Food Icon Pack_74: -272347825
+      SODA's Realistic 32x32 Food Icon Pack_75: -179839750
+      SODA's Realistic 32x32 Food Icon Pack_76: 1097042004
+      SODA's Realistic 32x32 Food Icon Pack_77: 2012167608
+      SODA's Realistic 32x32 Food Icon Pack_78: 1465041331
+      SODA's Realistic 32x32 Food Icon Pack_79: -926412404
+      SODA's Realistic 32x32 Food Icon Pack_8: 1967532433
+      SODA's Realistic 32x32 Food Icon Pack_80: -455794083
+      SODA's Realistic 32x32 Food Icon Pack_81: 1689029160
+      SODA's Realistic 32x32 Food Icon Pack_82: 878883414
+      SODA's Realistic 32x32 Food Icon Pack_83: 1527669330
+      SODA's Realistic 32x32 Food Icon Pack_84: 1788429795
+      SODA's Realistic 32x32 Food Icon Pack_85: 23759884
+      SODA's Realistic 32x32 Food Icon Pack_86: -176233542
+      SODA's Realistic 32x32 Food Icon Pack_87: -1200470397
+      SODA's Realistic 32x32 Food Icon Pack_88: -902429359
+      SODA's Realistic 32x32 Food Icon Pack_89: 1982747638
+      SODA's Realistic 32x32 Food Icon Pack_9: -800330969
+      SODA's Realistic 32x32 Food Icon Pack_90: -686711167
+      SODA's Realistic 32x32 Food Icon Pack_91: 140770432
+      SODA's Realistic 32x32 Food Icon Pack_92: -965481889
+      SODA's Realistic 32x32 Food Icon Pack_93: -1103874333
+      SODA's Realistic 32x32 Food Icon Pack_94: -1551781691
+      SODA's Realistic 32x32 Food Icon Pack_95: -68771214
+      SODA's Realistic 32x32 Food Icon Pack_96: -794970644
+      SODA's Realistic 32x32 Food Icon Pack_97: -2067622839
+      SODA's Realistic 32x32 Food Icon Pack_98: -111397321
+      SODA's Realistic 32x32 Food Icon Pack_99: 1252166585
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
