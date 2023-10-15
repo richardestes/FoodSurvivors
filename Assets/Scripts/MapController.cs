@@ -1,7 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.TerrainUtils;
 
 public class MapController : MonoBehaviour
 {
@@ -36,8 +34,8 @@ public class MapController : MonoBehaviour
     void CheckChunks()
     {
         if (!CurrentChunk) return;
-        // if (!Player.activeSelf) return;
-        // if (!pm.isActiveAndEnabled) return;
+        if (!Player.activeSelf) return;
+        if (!pm.isActiveAndEnabled) return;
         
         // Direction Indexes
         // Up           0              
@@ -49,39 +47,7 @@ public class MapController : MonoBehaviour
         // DownLeft     6
         // DownRight    7       
 
-        if (pm.MoveDirection.x > 0 && pm.MoveDirection.y == 0) // Right
-        {
-            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(2).position, CheckerRadius, TerrainMask))
-            {
-                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(2).position;
-                SpawnChunk();
-            }
-        }
-        else if (pm.MoveDirection.x < 0 && pm.MoveDirection.y == 0) // Left
-        {
-            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(1).position, CheckerRadius, TerrainMask))
-            {
-                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(1).position;
-                SpawnChunk();
-            }
-        }
-        else if (pm.MoveDirection.y > 0 && pm.MoveDirection.x == 0) // Up
-        {
-            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(0).position, CheckerRadius, TerrainMask))
-            {
-                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(0).position;
-                SpawnChunk();
-            }
-        }
-        else if (pm.MoveDirection.y < 0 && pm.MoveDirection.x == 0) // Down
-        {
-            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(3).position, CheckerRadius, TerrainMask))
-            {
-                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(3).position;
-                SpawnChunk();
-            }
-        }
-        else if (pm.MoveDirection.x > 0 && pm.MoveDirection.y > 0) // UpRight
+        if (pm.MoveDirection.x > 0 && pm.MoveDirection.y > 0) // UpRight
         {
             if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(5).position, CheckerRadius, TerrainMask))
             {
@@ -110,6 +76,38 @@ public class MapController : MonoBehaviour
             if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(6).position, CheckerRadius, TerrainMask))
             {
                 NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(6).position;
+                SpawnChunk();
+            }
+        }
+        else if (pm.MoveDirection.x > 0 && pm.MoveDirection.y == 0) // Right
+        {
+            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(2).position, CheckerRadius, TerrainMask))
+            {
+                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(2).position;
+                SpawnChunk();
+            }
+        }
+        else if (pm.MoveDirection.x < 0 && pm.MoveDirection.y == 0) // Left
+        {
+            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(1).position, CheckerRadius, TerrainMask))
+            {
+                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(1).position;
+                SpawnChunk();
+            }
+        }
+        else if (pm.MoveDirection.y > 0 && pm.MoveDirection.x == 0) // Up
+        {
+            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(0).position, CheckerRadius, TerrainMask))
+            {
+                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(0).position;
+                SpawnChunk();
+            }
+        }
+        else if (pm.MoveDirection.y < 0 && pm.MoveDirection.x == 0) // Down
+        {
+            if (!Physics2D.OverlapCircle(CurrentChunk.transform.GetChild(0).GetChild(3).position, CheckerRadius, TerrainMask))
+            {
+                NewTerrainPosition = CurrentChunk.transform.GetChild(0).GetChild(3).position;
                 SpawnChunk();
             }
         }
