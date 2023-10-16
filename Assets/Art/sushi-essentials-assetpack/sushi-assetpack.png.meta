@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sushi-assetpack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0445388445e084cb4916728db6145d
+      internalID: -1941222175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f3e650aeb95e04ab7a24578641667d
+      internalID: 1214013009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 96
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f4bf9a0198f3f4c922e7b0a10a7ad5
+      internalID: -1212870175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 98
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daf0f61ec74d48478bf251416be5f9a
+      internalID: 1507754500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 97
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54e00998d42a143979e31864771b88
+      internalID: 1257922971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71e56fdd41e4c14996d47708f66ec3a
+      internalID: -1907996420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e337a3c264d748935330949e7c335
+      internalID: 1686116813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 74
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c55d8069b765b40993f69ef999d8f0
+      internalID: -41587508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 74
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbede3e8730d204bb6384c27910ea0a
+      internalID: 1631930830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 74
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abca26382c087440911b9292bf2fe7c
+      internalID: -375001442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 75
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b333af7dd43dae4d872998066ccc333
+      internalID: 1236211694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 75
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d85c0c6fca58e94a8eb007899ba7d9f
+      internalID: -437546510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 40
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c9c84ef29d8eb4294b19731eb77c47
+      internalID: -1307177594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 39
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d4277224609e40ae0212521ffe2ff
+      internalID: -31813046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 40
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169f4f1531eae844b96c6acc22cd78cc
+      internalID: -2107560325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ad7c14601e45b43ae9d27bbdc6838c
+      internalID: 705382793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 35
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3b84f3fa4929047ade907d5fcfe90c
+      internalID: 1510475592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 35
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb724d4d065950489d9c013ed0be6ad
+      internalID: -1184120293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227c8c4d181facc4484c7f54294b714d
+      internalID: 1484141229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be0445385aa3d641978b3dd4f35aeac
+      internalID: 364687872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7636fc139b61c42add729e6ed8ddfc
+      internalID: -980751711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 7
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911dfe9e96bd5d24b9801ff4cca297b4
+      internalID: -1360177993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi-assetpack_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3b2b06ef7ee64aabfbbd68f65b4bf
+      internalID: -895774503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +615,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sushi-assetpack_0: -1941222175
+      sushi-assetpack_1: 1214013009
+      sushi-assetpack_10: 1236211694
+      sushi-assetpack_11: -437546510
+      sushi-assetpack_12: -1307177594
+      sushi-assetpack_13: -31813046
+      sushi-assetpack_14: -2107560325
+      sushi-assetpack_15: 705382793
+      sushi-assetpack_16: 1510475592
+      sushi-assetpack_17: -1184120293
+      sushi-assetpack_18: 1484141229
+      sushi-assetpack_19: 364687872
+      sushi-assetpack_2: -1212870175
+      sushi-assetpack_20: -980751711
+      sushi-assetpack_21: -1360177993
+      sushi-assetpack_22: -895774503
+      sushi-assetpack_3: 1507754500
+      sushi-assetpack_4: 1257922971
+      sushi-assetpack_5: -1907996420
+      sushi-assetpack_6: 1686116813
+      sushi-assetpack_7: -41587508
+      sushi-assetpack_8: 1631930830
+      sushi-assetpack_9: -375001442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
