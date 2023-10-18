@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,22 @@ using UnityEngine;
 // Base script for all projectiles
 public class ProjectileWeaponBase : MonoBehaviour
 {
+
+    public WeaponScriptableObject weaponData;
+    
+    // Current stats
+    private float currentDamage;
+    private float currentSpeed;
+    private float currentCooldownDuration;
+    private int currentPierce;
+
+    private void Awake()
+    {
+        currentDamage = weaponData.Damage;
+        currentSpeed = weaponData.Speed;
+        currentCooldownDuration = weaponData.CooldownDuration;
+        currentPierce = weaponData.Pierce;
+    }
 
     protected Vector3 direction;
     public float destroyAfterSeconds;
@@ -62,5 +79,21 @@ public class ProjectileWeaponBase : MonoBehaviour
         }
         transform.localScale = scale;
         transform.localRotation = Quaternion.Euler(rotation);
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Enemy"))
+        {
+            EnemyStats enemy = col.GetComponent<EnemyStats>();
+            enemy.TakeDamage(currentDamage); // use currentDamage instead of weaponData.damage in case of any modifiers
+            ReducePierce();
+        }
+    }
+
+    void ReducePierce()
+    {
+        currentPierce--;
+        if (currentPierce <= 0) Destroy(gameObject);
     }
 }

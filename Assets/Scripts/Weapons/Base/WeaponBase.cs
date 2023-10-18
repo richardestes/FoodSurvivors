@@ -9,29 +9,21 @@ using UnityEngine;
 public class WeaponBase : MonoBehaviour
 {
 
-    [Header("Weapon Stats")] public GameObject prefab;
-
-    public float damage;
-
-    public float speed;
-
-    public float cooldownDuration;
-
-    private float _currentCooldown;
-
-    public int pierce;
+    [Header("Weapon Stats")]
+    public WeaponScriptableObject weaponData;
+    float currentCooldown;
 
     protected PlayerMovement Pm;
     protected virtual void Start()
     {
         Pm = FindObjectOfType<PlayerMovement>();
-        _currentCooldown = cooldownDuration; // By default , this prevents a weapon from automatically attacking at pickup
+        currentCooldown = weaponData.CooldownDuration; // By default , this prevents a weapon from automatically attacking at pickup
     }
 
     protected virtual void Update()
     {
-        _currentCooldown -= Time.deltaTime;
-        if (_currentCooldown <= 0f)
+        currentCooldown -= Time.deltaTime;
+        if (currentCooldown <= 0f)
         {
             Attack();
         }
@@ -39,6 +31,6 @@ public class WeaponBase : MonoBehaviour
 
     protected virtual void Attack()
     {
-        _currentCooldown = cooldownDuration;
+        currentCooldown = weaponData.CooldownDuration;
     }
 }

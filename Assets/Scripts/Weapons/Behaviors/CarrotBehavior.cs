@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class CarrotBehavior : ProjectileWeaponBase
 {
-    private CarrotController cc;
-    
     protected override void Start()
     {
         base.Start();
-        cc = FindObjectOfType<CarrotController>();
     }
 
     void Update()
     {
-        transform.position += direction * cc.speed * Time.deltaTime;
+        transform.position += direction * (weaponData.Speed * Time.deltaTime);
     }
 }

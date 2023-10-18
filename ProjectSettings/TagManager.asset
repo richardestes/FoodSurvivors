@@ -12,6 +12,7 @@ TagManager:
   - Chunk-UpLeft
   - Chunk-DownRight
   - Chunk-DownLeft
+  - Enemy
   layers:
   - Default
   - TransparentFX
