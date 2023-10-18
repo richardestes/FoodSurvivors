@@ -595,6 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TerrainChunks:
   - {fileID: 3921775551714195715, guid: b9da9bd65656f1744948c15080f1e045, type: 3}
+  - {fileID: 3921775551714195715, guid: 5f2e0daabebc02e41ab08689a66d5290, type: 3}
   Player: {fileID: 1123782541}
   CheckerRadius: 3
   TerrainMask:

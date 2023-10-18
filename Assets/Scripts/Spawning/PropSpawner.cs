@@ -21,7 +21,7 @@ public class PropRandomizer : MonoBehaviour
     {
         foreach (GameObject SpawnPoint in PropSpawnPoints)
         {
-            int RandomSeed = Random.Range(0, PropSpawnPoints.Count);
+            int RandomSeed = UnityEngine.Random.Range(0, PropSpawnPoints.Count);
             GameObject Prop = Instantiate(PropPrefabs[RandomSeed], SpawnPoint.transform.position, Quaternion.identity);
             Prop.transform.parent = SpawnPoint.transform;
         }

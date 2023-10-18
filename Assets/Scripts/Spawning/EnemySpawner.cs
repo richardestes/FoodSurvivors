@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
     {
         foreach (GameObject SpawnPoint in enemySpawnPoints)
         {
-            int RandomSeed = Random.Range(0, enemyPrefabs.Count);
+            int RandomSeed = UnityEngine.Random.Range(0, enemyPrefabs.Count);
             GameObject enemy = Instantiate(enemyPrefabs[RandomSeed], SpawnPoint.transform.position, Quaternion.identity);
         }
     }

@@ -120,8 +120,8 @@ public class MapController : MonoBehaviour
 
     void SpawnChunk()
     {
-        //int Rand = Random.Range(0,TerrainChunks.Count);
-        LatestChunk = Instantiate(TerrainChunks[0], NewTerrainPosition, Quaternion.identity);
+        int Rand = UnityEngine.Random.Range(0,TerrainChunks.Count);
+        LatestChunk = Instantiate(TerrainChunks[Rand], NewTerrainPosition, Quaternion.identity);
         SpawnedChunks.Add(LatestChunk);
     }
 
