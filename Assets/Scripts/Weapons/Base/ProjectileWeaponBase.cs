@@ -89,6 +89,14 @@ public class ProjectileWeaponBase : MonoBehaviour
             enemy.TakeDamage(currentDamage); // use currentDamage instead of weaponData.damage in case of any modifiers
             ReducePierce();
         }
+        else if (col.CompareTag("Prop"))
+        {
+            if (col.gameObject.TryGetComponent(out BreakableProps prop))
+            {
+                prop.TakeDamage(currentDamage);
+                ReducePierce();
+            }
+        }
     }
 
     void ReducePierce()

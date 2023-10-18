@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6283791471131797314}
   - component: {fileID: 5961649998055888925}
   - component: {fileID: -5585743842043138417}
+  - component: {fileID: -229063290872015630}
+  - component: {fileID: 9091908365942345573}
   m_Layer: 0
   m_Name: terrain_64
   m_TagString: Untagged
@@ -130,3 +132,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-229063290872015630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2443069602787235940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd84056c74608e64cad70130b8817433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 10
+--- !u!114 &9091908365942345573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2443069602787235940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff59cccb91addc4e91c7f9003d23ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: HealthPotion
+    itemPrefab: {fileID: 5313697105360149004, guid: db8582dae30c7ac4f8e068ef82170466, type: 3}
+    dropRate: 40
