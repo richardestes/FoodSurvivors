@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 // Base script for all projectiles
@@ -10,11 +7,13 @@ public class ProjectileWeaponBase : MonoBehaviour
     public WeaponScriptableObject weaponData;
     
     // Current stats
-    private float currentDamage;
-    private float currentSpeed;
-    private float currentCooldownDuration;
-    private int currentPierce;
+    public float currentDamage;
+    public float currentSpeed;
+    public float currentCooldownDuration;
+    public int currentPierce;
 
+    protected Vector3 direction;
+    public float destroyAfterSeconds;
     private void Awake()
     {
         currentDamage = weaponData.Damage;
@@ -22,10 +21,6 @@ public class ProjectileWeaponBase : MonoBehaviour
         currentCooldownDuration = weaponData.CooldownDuration;
         currentPierce = weaponData.Pierce;
     }
-
-    protected Vector3 direction;
-    public float destroyAfterSeconds;
-    
     protected virtual void Start()
     {
         Destroy(gameObject,destroyAfterSeconds);

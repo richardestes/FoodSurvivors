@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public EnemyScriptableObject enemyData;
-    Transform player;
+    private EnemyStats _enemy;
+    Transform _player;
     void Start()
     {
-        player = FindObjectOfType<PlayerMovement>().transform;
+        _enemy = GetComponent<EnemyStats>();
+        _player = FindObjectOfType<PlayerMovement>().transform;
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.position, enemyData.MoveSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, _player.position, _enemy.currentMoveSpeed * Time.deltaTime);
     }
 }

@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
@@ -8,9 +5,9 @@ public class EnemyStats : MonoBehaviour
     public EnemyScriptableObject enemyData;
     
     // Current stats
-    private float currentMoveSpeed;
-    private float currentHealth;
-    private float currentDamage;
+    [HideInInspector] public float currentMoveSpeed;
+    [HideInInspector] public float currentHealth;
+    [HideInInspector] public float currentDamage;
 
     private void Awake()
     {

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -14,11 +12,12 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 lastMoveVector;
 
     // References
-    Rigidbody2D RigidBody;
-    public CharacterScriptableObject characterData;
+    Rigidbody2D _rigidBody;
+    private PlayerStats _player;
     void Start()
     {
-        RigidBody = GetComponent<Rigidbody2D>();
+        _player = GetComponent<PlayerStats>();
+        _rigidBody = GetComponent<Rigidbody2D>();
         lastMoveVector = new Vector2(1f, 0f); // default fire direction: right
     }
 
@@ -34,10 +33,10 @@ public class PlayerMovement : MonoBehaviour
 
     void InputManagement()
     {
-        float MoveX = Input.GetAxisRaw("Horizontal");
-        float MoveY = Input.GetAxisRaw("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
-        MoveDirection = new Vector2(MoveX, MoveY).normalized;
+        MoveDirection = new Vector2(moveX, moveY).normalized;
 
         if (MoveDirection.x != 0)
         {
@@ -58,6 +57,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        RigidBody.velocity = new Vector2(MoveDirection.x * characterData.MoveSpeed, MoveDirection.y * characterData.MoveSpeed);
+        _rigidBody.velocity = new Vector2(MoveDirection.x * _player.currentMoveSpeed, MoveDirection.y * _player.currentMoveSpeed);
     }
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CarrotWeapon
   m_EditorClassIdentifier: 
   prefab: {fileID: 4888033441718223356, guid: 4c568bbe3e5d03f458b556874d65f642, type: 3}
-  damage: 3
+  damage: 4
   speed: 10
-  cooldownDuration: 2
+  cooldownDuration: 3
   pierce: 1

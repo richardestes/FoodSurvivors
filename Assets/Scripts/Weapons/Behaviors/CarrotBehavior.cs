@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CarrotBehavior : ProjectileWeaponBase
@@ -11,6 +9,6 @@ public class CarrotBehavior : ProjectileWeaponBase
 
     void Update()
     {
-        transform.position += direction * (weaponData.Speed * Time.deltaTime);
+        transform.position += direction * (currentSpeed * Time.deltaTime);
     }
 }

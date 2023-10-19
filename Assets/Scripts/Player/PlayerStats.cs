@@ -1,24 +1,30 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public CharacterScriptableObject characterData;
+    CharacterScriptableObject characterData;
+
+    public List<GameObject> spawnedWeapons; 
     
     // Current Stats
-    private float currentHealth;
-    private float currentRecovery;
-    private float currentMoveSpeed;
-    private float currentMight;
-    private float currentProjectileSpeed;
+    [HideInInspector]public float currentHealth;
+    [HideInInspector]public float currentRecovery;
+    [HideInInspector]public float currentMoveSpeed;
+    [HideInInspector]public float currentMight;
+    [HideInInspector]public float currentProjectileSpeed;
+    [HideInInspector]public float currentMagnet;
 
     // Experience and Leveling
     [Header("Experience/Level")]
-    public int Experience;
-    public int Level;
+    public int Experience = 0;
+    public int Level = 1;
     public int ExperienceCap;
+    
+    // I-Frames
+    [Header("IFrames")] public float invincibilityDuration;
+    private float invincibilityTimer;
+    private bool isInvincible;
 
     [System.Serializable] // Allows for editing in inspector
     public class LevelRange
@@ -27,13 +33,8 @@ public class PlayerStats : MonoBehaviour
         public int EndLevel;
         public int ExperienceCapIncrease;
     }
-
     public List<LevelRange> LevelRanges;
     
-    // I-Frames
-    [Header("IFrames")] public float invincibilityDuration;
-    private float invincibilityTimer;
-    private bool isInvincible;
     private void Start()
     {
         // Without this, the player start with an experience cap of 0 and can level up immediately
@@ -42,11 +43,17 @@ public class PlayerStats : MonoBehaviour
 
     private void Awake()
     {
+        characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroySingleton();
+        
         currentHealth = characterData.MaxHealth;
         currentRecovery = characterData.Recovery;
         currentMoveSpeed = characterData.MoveSpeed;
         currentMight = characterData.Might;
         currentProjectileSpeed = characterData.ProjectileSpeed;
+        currentMagnet = characterData.Magnet;
+        
+        SpawnWeapon(characterData.StartingWeapon);
     }
 
     private void Update()
@@ -59,6 +66,7 @@ public class PlayerStats : MonoBehaviour
         {
             isInvincible = false;
         }
+        Recover();
     }
 
     public void IncreaseExperience(int amount)
@@ -115,5 +123,26 @@ public class PlayerStats : MonoBehaviour
     public void Kill()
     {
         print("player is dead");
+    }
+
+    public void Recover()
+    {
+        if (currentHealth < characterData.MaxHealth)
+        {
+            currentHealth += currentRecovery * Time.deltaTime;
+        }
+
+        if (currentHealth > characterData.MaxHealth) // Check to prevent floating values from exceeding MaxHealth
+        {
+            currentHealth = characterData.MaxHealth;
+        }
+    }
+
+    public void SpawnWeapon(GameObject weapon)
+    {
+        // Spawn starting weapon
+        GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
+        spawnedWeapon.transform.SetParent(transform); // Make weapon a child of the Player
+        spawnedWeapons.Add(spawnedWeapon);
     }
 }
