@@ -1,11 +1,18 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
     CharacterScriptableObject characterData;
+    private InventoryManager inventory;
+    
+    public int WeaponIndex;
+    public int PassiveItemIndex;
 
-    public List<GameObject> spawnedWeapons; 
+    public GameObject firstPassiveItem, secondPassiveItem;
+
+    public GameObject SecondWeaponTest;
     
     // Current Stats
     [HideInInspector]public float currentHealth;
@@ -14,6 +21,7 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector]public float currentMight;
     [HideInInspector]public float currentProjectileSpeed;
     [HideInInspector]public float currentMagnet;
+    
 
     // Experience and Leveling
     [Header("Experience/Level")]
@@ -45,6 +53,8 @@ public class PlayerStats : MonoBehaviour
     {
         characterData = CharacterSelector.GetData();
         CharacterSelector.instance.DestroySingleton();
+
+        inventory = GetComponent<InventoryManager>();
         
         currentHealth = characterData.MaxHealth;
         currentRecovery = characterData.Recovery;
@@ -54,6 +64,9 @@ public class PlayerStats : MonoBehaviour
         currentMagnet = characterData.Magnet;
         
         SpawnWeapon(characterData.StartingWeapon);
+        SpawnWeapon(SecondWeaponTest);
+        SpawnPassiveItem(firstPassiveItem);
+        SpawnPassiveItem(secondPassiveItem);
     }
 
     private void Update()
@@ -140,9 +153,31 @@ public class PlayerStats : MonoBehaviour
 
     public void SpawnWeapon(GameObject weapon)
     {
-        // Spawn starting weapon
+        if (WeaponIndex >= inventory.WeaponSlots.Count - 1)
+        {
+            Debug.LogError("ERROR: Tried to add weapon: " + weapon.name + " to a full inventory");
+            return;
+        }
+        
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform); // Make weapon a child of the Player
-        spawnedWeapons.Add(spawnedWeapon);
+        inventory.AddWeapon(WeaponIndex, spawnedWeapon.GetComponent<WeaponBase>()); // Add to inventory
+
+        WeaponIndex++;
+    }
+
+    public void SpawnPassiveItem(GameObject item)
+    {
+        if (PassiveItemIndex >= inventory.PassiveItemSlots.Count - 1)
+        {
+            Debug.LogError("ERROR: Tried to add passive item: " + item.name + " to a full inventory");
+            return;
+        }
+        
+        GameObject spawnedItem = Instantiate(item, transform.position, Quaternion.identity);
+        spawnedItem.transform.SetParent(transform); // Make weapon a child of the Player
+        inventory.AddPassiveItem(PassiveItemIndex, spawnedItem.GetComponent<PassiveItem>()); // Add to inventory
+
+        PassiveItemIndex++;
     }
 }

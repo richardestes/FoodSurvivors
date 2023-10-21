@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 803249b066759b441b76c553db6efb8c, type: 3}
-  m_Name: GarlicWeapon
+  m_Name: GarlicWeaponLevel2
   m_EditorClassIdentifier: 
   prefab: {fileID: 1351922530376647707, guid: f174e84708b2776428c0e1253425f904, type: 3}
   damage: 2
   speed: 0
-  cooldownDuration: 5
+  cooldownDuration: 3.5
   pierce: 0
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  icon: {fileID: -2067622839, guid: 50812efd941efc04793b4be56e0533a2, type: 3}

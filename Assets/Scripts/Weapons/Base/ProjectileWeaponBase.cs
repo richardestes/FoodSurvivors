@@ -14,6 +14,7 @@ public class ProjectileWeaponBase : MonoBehaviour
 
     protected Vector3 direction;
     public float destroyAfterSeconds;
+    
     private void Awake()
     {
         currentDamage = weaponData.Damage;
@@ -24,6 +25,11 @@ public class ProjectileWeaponBase : MonoBehaviour
     protected virtual void Start()
     {
         Destroy(gameObject,destroyAfterSeconds);
+    }
+
+    public float GetCurrentDamage()
+    {
+        return currentDamage *= FindObjectOfType<PlayerStats>().currentMight;
     }
 
     public void DirectionChecker(Vector3 dir)
@@ -81,14 +87,14 @@ public class ProjectileWeaponBase : MonoBehaviour
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(currentDamage); // use currentDamage instead of weaponData.damage in case of any modifiers
+            enemy.TakeDamage(GetCurrentDamage()); // use currentDamage instead of weaponData.damage in case of any modifiers
             ReducePierce();
         }
         else if (col.CompareTag("Prop"))
         {
             if (col.gameObject.TryGetComponent(out BreakableProps prop))
             {
-                prop.TakeDamage(currentDamage);
+                prop.TakeDamage(GetCurrentDamage());
                 ReducePierce();
             }
         }

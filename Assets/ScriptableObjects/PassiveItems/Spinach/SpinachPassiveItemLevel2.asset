@@ -9,13 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e6b0fc0014e5e4faa92084084a80e8, type: 3}
-  m_Name: CarrotCharacter
+  m_Script: {fileID: 11500000, guid: 7789881288951b643b14ff6d80f1c0cb, type: 3}
+  m_Name: SpinachPassiveItemLevel2
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 8838967065021025554, guid: b3e1f6cf59989f245a0567ab50a2f3b2, type: 3}
-  maxHealth: 1000
-  recovery: 1
-  moveSpeed: 5
-  might: 1
-  projectileSpeed: 0
-  magnet: 1.7
+  multiplier: 150
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  icon: {fileID: 1252166585, guid: 50812efd941efc04793b4be56e0533a2, type: 3}

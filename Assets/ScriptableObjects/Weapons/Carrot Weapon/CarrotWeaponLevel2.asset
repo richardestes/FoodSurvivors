@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803249b066759b441b76c553db6efb8c, type: 3}
+  m_Name: CarrotWeaponLevel2
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4888033441718223356, guid: 4c568bbe3e5d03f458b556874d65f642, type: 3}
+  damage: 4
+  speed: 15
+  cooldownDuration: 3
+  pierce: 1
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  icon: {fileID: -68771214, guid: 50812efd941efc04793b4be56e0533a2, type: 3}

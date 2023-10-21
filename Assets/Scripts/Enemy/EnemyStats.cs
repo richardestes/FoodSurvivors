@@ -10,7 +10,7 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector] public float currentDamage;
 
     public EnemyScriptableObject enemyData;
-    public float DespawnDistance = 20f;
+    public float DespawnDistance = 40f;
 
     private EnemySpawner _enemySpawner;
 
@@ -29,13 +29,13 @@ public class EnemyStats : MonoBehaviour
 
     
     // THIS SHIT IS BROKEN
-    void FixedUpdate()
-    {
-        // if (Vector2.Distance(transform.position, player.position) >= DespawnDistance)
-        // {
-        //     ReturnEnemy();
-        // }
-    }
+    // void FixedUpdate()
+    //      {
+    //          if (Vector2.Distance(transform.position, player.position) >= DespawnDistance)
+    //          {
+    //              ReturnEnemy();
+    //          }
+    //      }
 
     // This seems like a horrible idea
     void ReturnEnemy()
