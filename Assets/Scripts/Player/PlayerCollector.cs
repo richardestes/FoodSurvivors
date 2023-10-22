@@ -17,11 +17,10 @@ public class PlayerCollector : MonoBehaviour
     private void Update()
     {
         // An attempt at optimization. If this ends up causing issues, remove this check
-        if (Math.Abs(playerCollector.radius - player.currentMagnet) > 0.01f) 
+        if (Math.Abs(playerCollector.radius - player.CurrentMagnet) > 0.01f) 
         {
-            playerCollector.radius = player.currentMagnet;
+            playerCollector.radius = player.CurrentMagnet;
         }
-        // playerCollector.radius = player.currentMagnet;
     }
  
     private void OnTriggerEnter2D(Collider2D col)

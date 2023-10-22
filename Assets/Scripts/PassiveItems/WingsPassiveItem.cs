@@ -10,6 +10,6 @@ public class WingsPassiveItem : PassiveItem
     // 1 + 50/100 = 1.5
     protected override void ApplyModifier()
     {
-        playerStats.currentMoveSpeed *= 1 + PassiveItemData.Multiplier / 100f;
+        playerStats.CurrentMoveSpeed *= 1 + PassiveItemData.Multiplier / 100f;
     }
 }
