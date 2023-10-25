@@ -20,3 +20,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 9003264944575828369, guid: 86344a84ca5df38439ca877339905511, type: 3}
   icon: {fileID: -2067622839, guid: 50812efd941efc04793b4be56e0533a2, type: 3}
+  name: Garlic
+  description: A strong-smelling pungent-tasting bulb.

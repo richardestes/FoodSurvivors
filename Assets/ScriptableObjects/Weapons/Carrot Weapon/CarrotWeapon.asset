@@ -20,3 +20,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 8838967065021025554, guid: f01ae5a2e41c06543bb4bf311bd42fc9, type: 3}
   icon: {fileID: -68771214, guid: 50812efd941efc04793b4be56e0533a2, type: 3}
+  name: Carrot
+  description: 'A tapering orange-colored root eaten as a vegetable. '

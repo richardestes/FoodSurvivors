@@ -16,3 +16,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 4611279202354660520, guid: 6f7ed5591778bc04096ab3af91d76786, type: 3}
   icon: {fileID: 1252166585, guid: 50812efd941efc04793b4be56e0533a2, type: 3}
+  name: Spinach
+  description: A leafy green flowering plant native to central and Western Asia.

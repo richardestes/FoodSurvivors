@@ -1,18 +1,12 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
     CharacterScriptableObject characterData;
     private InventoryManager inventory;
-    
-    public int WeaponIndex;
-    public int PassiveItemIndex;
-
-    public GameObject firstPassiveItem, secondPassiveItem;
-
-    public GameObject SecondWeaponTest;
     
     // Current Stats
     float currentHealth;
@@ -21,7 +15,19 @@ public class PlayerStats : MonoBehaviour
     float currentMight;
     float currentProjectileSpeed;
     float currentMagnet;
+    
+    public int WeaponIndex;
+    public int PassiveItemIndex;
 
+    public GameObject firstPassiveItem, secondPassiveItem;
+
+    public GameObject SecondWeaponTest;
+
+    [Header("UI")]
+    public Image HealthBar;
+    public Image XPBar;
+    public TMP_Text LevelText;
+    
     #region Current Stat Properties
     public float CurrentHealth
     {
@@ -157,6 +163,10 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.CurrentMagnetDisplay.text = "Magnet: " + currentMagnet;
         
         GameManager.instance.AssignChosenCharacterUI(characterData);
+
+        UpdateHealthBar();
+        UpdateXPBar();
+        UpdateLevelText();
     }
 
     private void Awake()
@@ -174,8 +184,8 @@ public class PlayerStats : MonoBehaviour
         CurrentMagnet = characterData.Magnet;
         
         SpawnWeapon(characterData.StartingWeapon);
-        SpawnWeapon(SecondWeaponTest);
-        SpawnPassiveItem(firstPassiveItem);
+        // SpawnWeapon(SecondWeaponTest);
+        // SpawnPassiveItem(firstPassiveItem);
         SpawnPassiveItem(secondPassiveItem);
     }
 
@@ -192,13 +202,24 @@ public class PlayerStats : MonoBehaviour
         Recover();
     }
 
+    void UpdateXPBar()
+    {
+        XPBar.fillAmount = (float)Experience / ExperienceCap;
+    }
+
+    void UpdateLevelText()
+    {
+        LevelText.text = "LV " + Level.ToString();
+    }
+    
     public void IncreaseExperience(int amount)
     {
         Experience += amount;
-        CheckLevel();
+        CheckLevelUp();
+        UpdateXPBar();
     }
 
-    public void CheckLevel()
+    public void CheckLevelUp()
     {
         if (Experience >= ExperienceCap)
         {
@@ -215,6 +236,9 @@ public class PlayerStats : MonoBehaviour
                 }
             }
             ExperienceCap += experienceCapIncrease;
+            
+            GameManager.instance.StartLevelUp();
+            UpdateLevelText();
         }
     }
 
@@ -229,6 +253,13 @@ public class PlayerStats : MonoBehaviour
         {
             Kill();
         }
+
+        UpdateHealthBar();
+    }
+
+    void UpdateHealthBar()
+    {
+        HealthBar.fillAmount = CurrentHealth / characterData.MaxHealth;
     }
 
     public void RestoreHealth(float amount)
@@ -247,8 +278,8 @@ public class PlayerStats : MonoBehaviour
     {
         if (!GameManager.instance.IsGameOver) // Ensures that this will only be called once
         {
-            GameManager.instance.AssignLevelReachedUI(Level);
             GameManager.instance.AssignResultingInventoryUI(inventory.WeaponUISlots, inventory.PassiveItemUISlots);
+            GameManager.instance.AssignLevelReachedUI(Level);
             GameManager.instance.GameOver();
         }
     }

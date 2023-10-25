@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: -68771214, guid: 50812efd941efc04793b4be56e0533a2, type: 3}
   name: Carrot Character
   startingWeapon: {fileID: 8838967065021025554, guid: b3e1f6cf59989f245a0567ab50a2f3b2, type: 3}
-  maxHealth: 100
+  maxHealth: 20
   recovery: 1
   moveSpeed: 5
   might: 1

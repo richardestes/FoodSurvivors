@@ -16,3 +16,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 8700468250456444970, guid: 3e2d2c35f00d1224a8363fb60e4d4f78, type: 3}
   icon: {fileID: 2123093526, guid: 50812efd941efc04793b4be56e0533a2, type: 3}
+  name: Wings
+  description: Given by Red Bull.
