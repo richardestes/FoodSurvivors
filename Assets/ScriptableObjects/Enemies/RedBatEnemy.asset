@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd2b85994bf3e344b87917a44b7ccd0d, type: 3}
   m_Name: RedBatEnemy
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  maxHealth: 4
-  damage: 5
+  moveSpeed: 1.7
+  maxHealth: 9
+  damage: 9

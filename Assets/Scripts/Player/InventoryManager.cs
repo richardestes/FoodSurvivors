@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -53,6 +54,7 @@ public class InventoryManager : MonoBehaviour
     public List<Image> WeaponUISlots = new List<Image>(6);
     public List<Image> PassiveItemUISlots = new List<Image>(6);
 
+    public List<WeaponEvolutionBlueprint> WeaponEvolutions = new List<WeaponEvolutionBlueprint>();
     public void AddWeapon(int slotIndex, WeaponBase weapon)
     {
         WeaponSlots[slotIndex] = weapon;
@@ -271,4 +273,67 @@ public class InventoryManager : MonoBehaviour
     {
         ui.UpgradeNameDisplay.transform.parent.gameObject.SetActive(true);
     }
+
+    public List<WeaponEvolutionBlueprint> GetPossibleEvolutions()
+    {
+        List<WeaponEvolutionBlueprint> possibleEvolutions = new List<WeaponEvolutionBlueprint>();
+
+        foreach (WeaponBase weapon in WeaponSlots)
+        {
+            if (weapon != null)
+            {
+                foreach (PassiveItem catalyst in PassiveItemSlots)
+                {
+                    if (catalyst != null)
+                    {
+                        foreach (WeaponEvolutionBlueprint evolution in WeaponEvolutions)
+                        {
+                            if (weapon.weaponData.Level >= evolution.BaseWeaponData.Level && catalyst.PassiveItemData.Level >= evolution.CatalystPassiveItemData.Level)
+                            {
+                                possibleEvolutions.Add(evolution);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        return possibleEvolutions;
+    }
+
+    public void EvolveWeapon(WeaponEvolutionBlueprint evolution)
+    {
+        for (int weaponSlotIndex = 0; weaponSlotIndex < WeaponSlots.Count; weaponSlotIndex++)
+        {
+            WeaponBase weapon = WeaponSlots[weaponSlotIndex];
+            if (!weapon) continue; // safeguard against null reference exception. Moves to next iteration of the loop
+            
+            for (int catalystSlotIndex = 0; catalystSlotIndex < PassiveItemSlots.Count; catalystSlotIndex++)
+            {
+                PassiveItem catalyst = PassiveItemSlots[catalystSlotIndex];
+                if(!catalyst) continue; 
+                
+                if (weapon && 
+                    catalyst && 
+                    weapon.weaponData.Level >= evolution.BaseWeaponData.Level && 
+                    catalyst.PassiveItemData.Level >= evolution.CatalystPassiveItemData.Level)
+                {
+                    GameObject evolvedWeaponGameObject = Instantiate(evolution.EvolvedWeapon, transform.position, Quaternion.identity);
+                    WeaponBase evolvedWeapon = evolvedWeaponGameObject.GetComponent<WeaponBase>();
+                    evolvedWeaponGameObject.transform.SetParent(transform);
+                    AddWeapon(weaponSlotIndex,evolvedWeapon);
+                    Destroy(weapon.gameObject);
+
+                    WeaponLevels[weaponSlotIndex] = evolvedWeapon.weaponData.Level;
+                    WeaponUISlots[weaponSlotIndex].sprite = evolvedWeapon.weaponData.Icon;
+                    
+                    // Update upgrade options
+                    WeaponUpgradeOptions.RemoveAt(evolvedWeapon.weaponData.EvolvedUpgradeToRemove);
+                    
+                    Debug.LogWarning("EVOLVED!");
+                    return;
+                }
+            }
+        }
+}
 }

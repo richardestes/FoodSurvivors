@@ -19,14 +19,12 @@ public class PlayerStats : MonoBehaviour
     public int WeaponIndex;
     public int PassiveItemIndex;
 
-    public GameObject firstPassiveItem, secondPassiveItem;
-
-    public GameObject SecondWeaponTest;
-
     [Header("UI")]
     public Image HealthBar;
     public Image XPBar;
     public TMP_Text LevelText;
+
+    public ParticleSystem DamageEffect;
     
     #region Current Stat Properties
     public float CurrentHealth
@@ -184,9 +182,6 @@ public class PlayerStats : MonoBehaviour
         CurrentMagnet = characterData.Magnet;
         
         SpawnWeapon(characterData.StartingWeapon);
-        // SpawnWeapon(SecondWeaponTest);
-        // SpawnPassiveItem(firstPassiveItem);
-        SpawnPassiveItem(secondPassiveItem);
     }
 
     private void Update()
@@ -246,6 +241,8 @@ public class PlayerStats : MonoBehaviour
     {
         if (isInvincible) return;
         CurrentHealth -= dmg;
+        // Play damage effect if there is one assigned
+        if (DamageEffect) Instantiate(DamageEffect, transform.position, Quaternion.identity);
         invincibilityTimer = invincibilityDuration;
         isInvincible = true;
         

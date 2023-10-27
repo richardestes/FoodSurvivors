@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3108724538241076881}
   - component: {fileID: 192693845522038643}
   - component: {fileID: 5453192344886127052}
+  - component: {fileID: 3052211127304967506}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Enemy
@@ -184,6 +185,9 @@ MonoBehaviour:
   currentDamage: 0
   enemyData: {fileID: 11400000, guid: d2658386d151b6a418a32b82e783877a, type: 2}
   DespawnDistance: 0
+  DamageColor: {r: 1, g: 1, b: 1, a: 1}
+  DamageFlashDuration: 0.2
+  DeathFadeTime: 0.6
 --- !u!114 &5453192344886127052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,6 +201,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
-  - name: BlueGem
+  - name: Blue Gem
     itemPrefab: {fileID: 1969678321564322327, guid: 318dc7137b9a7ed4c857806f52b6e783, type: 3}
     dropRate: 30
+  - name: Health Potion
+    itemPrefab: {fileID: 5313697105360149004, guid: db8582dae30c7ac4f8e068ef82170466, type: 3}
+    dropRate: 70
+--- !u!60 &3052211127304967506
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8500812544434601539}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.78125, y: 0.34375}
+    newSize: {x: 0.84375, y: 0.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.015999658, y: -0.14052488}
+      - {x: -0.07820605, y: -0.14035983}
+      - {x: -0.078870855, y: -0.17333743}
+      - {x: 0.01615532, y: -0.17293862}
+  m_UseDelaunayMesh: 0

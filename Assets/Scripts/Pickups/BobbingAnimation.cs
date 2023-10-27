@@ -8,9 +8,11 @@ public class BobbingAnimation : MonoBehaviour
     public float Frequency;  // Speed of movement
     public float Magnitude; // Range of movement
     public Vector3 Direction; // Direction of movement
+    private Pickup pickup;
     
     void Start()
     {
+        pickup = GetComponent<Pickup>();
         // Save the starting position of the game object
         initialPosition = transform.position;
     }
@@ -18,7 +20,10 @@ public class BobbingAnimation : MonoBehaviour
     
     void Update()
     {
-        transform.position = initialPosition + Direction * (Mathf.Sin(Time.time * Frequency) * Magnitude); // Sine function for smooth bobbing effect
+        if (pickup && !pickup.hasBeenCollected)
+        {
+            transform.position = initialPosition + Direction * (Mathf.Sin(Time.time * Frequency) * Magnitude); // Sine function for smooth bobbing effect
+        }
         /* BREAKDOWN ON HOW THIS SHIT WORKS
         Mathf.Sin(Time.time * frequency): This part generates a wave-like value that oscillates between -1 and 1 over time. The Mathf.Sin function creates this wave,
         and multiplying it by Time.time * frequency adjusts the speed of the wave based on the frequency value.

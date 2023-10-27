@@ -8,4 +8,9 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(name);
         Time.timeScale = 1; // reset to default value
     }
+
+    public static string GetCurrentSceneName()
+    {
+        return SceneManager.GetActiveScene().name;
+    }
 }

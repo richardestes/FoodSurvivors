@@ -16,7 +16,7 @@ public class GarlicBehavior : MeleeWeaponBase
         if (col.CompareTag("Enemy") && !markedEnemies.Contains(col.gameObject))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(GetCurrentDamage());
+            enemy.TakeDamage(GetCurrentDamage(),transform.position);
             markedEnemies.Add(col.gameObject);
         }
         else if (col.CompareTag("Prop"))

@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -41,6 +42,13 @@ public class GameManager : MonoBehaviour
     private float stopwatchTime;
     public float TimeLimit;
     public TMP_Text StopwatchDisplay;
+
+    [Header("Damage Text Settings")]
+    public Canvas DamageTextCanvas;
+
+    public float TextFontSize = 20f;
+    public TMP_FontAsset TextFont;
+    public Camera ReferenceCamera;
 
     public TMP_Text TimeSurvivedDisplay;
     
@@ -232,6 +240,51 @@ public class GameManager : MonoBehaviour
         int seconds = Mathf.FloorToInt(stopwatchTime % 60);
 
         StopwatchDisplay.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    public static void GenerateFloatingText(string text, Transform target, float duration = 1f, float speed = 1f)
+    {
+        if (!instance.DamageTextCanvas) return;
+        if (!instance.ReferenceCamera) return;
+        instance.StartCoroutine(instance.GenerateFloatingTextCoroutine(text, target, duration, speed));
+    }
+    
+    IEnumerator GenerateFloatingTextCoroutine(string text, Transform target, float duration, float speed)
+    {
+        // Start generating the floating text.
+        GameObject textObj = new GameObject("Damage Floating Text");
+        RectTransform rect = textObj.AddComponent<RectTransform>();
+        TextMeshProUGUI tmPro = textObj.AddComponent<TextMeshProUGUI>();
+        tmPro.text = text;
+        tmPro.horizontalAlignment = HorizontalAlignmentOptions.Center;
+        tmPro.verticalAlignment = VerticalAlignmentOptions.Middle;
+        tmPro.fontSize = TextFontSize;
+        if (TextFont) tmPro.font = TextFont;
+        rect.position = ReferenceCamera.WorldToScreenPoint(target.position);
+
+        // Makes sure this is destroyed after the duration finishes.
+        Destroy(textObj, duration);
+
+        // Parent the generated text object to the canvas.
+        textObj.transform.SetParent(instance.DamageTextCanvas.transform);
+
+        // Pan the text upwards and fade it away over time.
+        WaitForEndOfFrame w = new WaitForEndOfFrame();
+        float t = 0;
+        float yOffset = 0;
+        while(t < duration)
+        {
+            // Wait for a frame and update the time.
+            yield return w;
+            t += Time.deltaTime;
+
+            // Fade the text to the right alpha value.
+            tmPro.color = new Color(tmPro.color.r, tmPro.color.g, tmPro.color.b, 1 - t / duration);
+
+            // Pan the text upwards.
+            yOffset += speed * Time.deltaTime;
+            rect.position = ReferenceCamera.WorldToScreenPoint(target.position + new Vector3(0,yOffset));
+        }
     }
 
 }

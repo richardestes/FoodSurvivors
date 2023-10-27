@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DropRateManager : MonoBehaviour
 {
-    [System.Serializable]
+    [Serializable]
     public class Drops
     {
         public string name;
