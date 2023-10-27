@@ -272,6 +272,7 @@ public class PlayerStats : MonoBehaviour
                 CurrentHealth = characterData.MaxHealth;
             }
         }
+        UpdateHealthBar();
     }
 
     public void Kill()

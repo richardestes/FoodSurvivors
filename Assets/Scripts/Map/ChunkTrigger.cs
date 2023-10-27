@@ -25,10 +25,10 @@ public class ChunkTrigger : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            if (mc.CurrentChunk == TargetMap) 
-            { 
-                mc.CurrentChunk = null; 
-            }
+            // if (mc.CurrentChunk == TargetMap) 
+            // { 
+            //     mc.CurrentChunk = null; 
+            // }
         }
     }
 }

@@ -5,14 +5,16 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     private Transform player;
-    [Header("Spawner Attributes")] private float spawnTimer;
-    
+
+    [Header("Spawner Attributes")]
+    private float spawnTimer;
     public List<Wave> Waves;
     public int CurrentWaveIndex;
     public float WaveInterval;
     public int EnemiesAlive;
     public int MaxEnemiesAllowed; // Max enemies to be spawned on map
     public bool MaxEnemiesReached = false;
+    private bool IsActiveWave = false;
 
     [Header("Spawn Positions")] public List<Transform> SpawnPoints;
     
@@ -45,7 +47,7 @@ public class EnemySpawner : MonoBehaviour
     private void Update()
     {
         //Check if the wave has ended and the next wave should start
-        if (CurrentWaveIndex < Waves.Count && Waves[CurrentWaveIndex].NumberOfSpawnedEnemies == 0)
+        if (CurrentWaveIndex < Waves.Count && Waves[CurrentWaveIndex].NumberOfSpawnedEnemies == 0 && !IsActiveWave)
         {
             StartCoroutine(BeginNextWave());
         }
@@ -59,23 +61,16 @@ public class EnemySpawner : MonoBehaviour
             SpawnEnemies();
         }
     }
-    void firstWave()
-    {
-        if (CurrentWaveIndex < Waves.Count && Waves[CurrentWaveIndex].NumberOfSpawnedEnemies == 0)
-        {
-            StartCoroutine(BeginNextWave());
-        }
-        spawnTimer = 0f;
-        SpawnEnemies();
-    }
-
+    
     IEnumerator BeginNextWave()
     {
+        IsActiveWave = true;
         // Wait for WaveInterval before spawning a new wave
         yield return new WaitForSeconds(WaveInterval);
         // Check if there are more waves to start
         if (CurrentWaveIndex < Waves.Count - 1)
         {
+            IsActiveWave = false;
             CurrentWaveIndex++;
             CalculateWaveQuota();
         }
@@ -96,39 +91,38 @@ public class EnemySpawner : MonoBehaviour
     
     void SpawnEnemies()
     {
-        if (Waves[CurrentWaveIndex].NumberOfSpawnedEnemies < Waves[CurrentWaveIndex].WaveQuota && !MaxEnemiesReached) // Check if minimum number of enemies in current wave have been spawned
+        // Check if minimum number of enemies in current wave have been spawned
+        if (Waves[CurrentWaveIndex].NumberOfSpawnedEnemies < Waves[CurrentWaveIndex].WaveQuota && !MaxEnemiesReached)
         { 
-            foreach (var enemyGroup in Waves[CurrentWaveIndex].EnemyGroups) // Spawn each type of enemy until the quota is filled
+            // Spawn each type of enemy until the quota is filled
+            foreach (var enemyGroup in Waves[CurrentWaveIndex].EnemyGroups) 
             {
-                if (enemyGroup.SpawnCount < enemyGroup.EnemyCount) // Check if minimum number of enemies of this type has been spawned
+                // Check if minimum number of enemies of this type has been spawned
+                if (enemyGroup.SpawnCount < enemyGroup.EnemyCount) 
                 {
-                    // Limit amount of enemies to spawn
+                    Instantiate(enemyGroup.EnemyPrefab, player.position + SpawnPoints[UnityEngine.Random.Range(0, SpawnPoints.Count)].position, Quaternion.identity);
+                    enemyGroup.SpawnCount++;
+                    Waves[CurrentWaveIndex].NumberOfSpawnedEnemies++;
+                    EnemiesAlive++;
+
+                    // Limit the number of enemies that can be spawned at once
                     if (EnemiesAlive >= MaxEnemiesAllowed)
                     {
                         MaxEnemiesReached = true;
                         return;
                     }
-
-                    Instantiate(enemyGroup.EnemyPrefab,
-                        player.position + SpawnPoints[UnityEngine.Random.Range(0, SpawnPoints.Count)].position,
-                        Quaternion.identity);
-                    
-                    enemyGroup.SpawnCount++;
-                    Waves[CurrentWaveIndex].NumberOfSpawnedEnemies++;
-                    EnemiesAlive++;
                 }
             }
-        }
-
-        // Reset flag if number of alive enemies has dropped below maximum amount
-        if (EnemiesAlive < MaxEnemiesAllowed)
-        {
-            MaxEnemiesReached = false;
         }
     }
     
     public void OnEnemyKilled()
     {
         EnemiesAlive--;
+        // Reset flag if number of alive enemies has dropped below maximum amount
+        if (EnemiesAlive < MaxEnemiesAllowed)
+        {
+            MaxEnemiesReached = false;
+        }
     }
 }
